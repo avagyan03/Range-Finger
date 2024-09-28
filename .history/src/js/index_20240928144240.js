@@ -1,0 +1,18 @@
+// import AirDatepicker from "air-datepicker";
+// import "air-datepicker/air-datepicker.css"
+// new AirDatepicker('.element')
+function slider() {
+    const slider = document.querySelector('.footer__container');
+
+}
+function prev() {
+    index = (index > 0) ? index - 1 : 0;
+    slider();
+}
+function next() {
+    const slider = document.querySelector('.footer__container');
+    const max=footer__container.length-3;
+    index = (index < max) ? index + 1 : max;
+    slider();
+}
+slider();

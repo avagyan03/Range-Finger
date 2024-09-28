@@ -1,0 +1,22 @@
+.box {
+    padding-top: 80px;
+
+    // .box__container
+
+    &__container {
+   
+    }
+
+    // .box__content
+
+    &__text {
+        max-width: 600px;
+    }
+    &__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 600px;;
+    }
+
+}

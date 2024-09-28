@@ -1,0 +1,29 @@
+.hero {
+
+  // .hero__container
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  // .hero__content
+
+  &__content {
+
+  }
+
+  // .hero__title
+
+  &__title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    max-width: 650px;;;
+    color:var(--hover-color);
+  
+  }
+}
+.container {
+}
+.title {
+}

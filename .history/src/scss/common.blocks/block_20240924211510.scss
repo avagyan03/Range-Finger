@@ -1,0 +1,28 @@
+.block {
+    padding-top: 145px;
+
+    // .block__container
+
+    &__container {
+        display: flex;
+    }
+
+    // .block__content
+
+    &__content {
+    }
+    &__table {
+        width: 50%;
+        border: 1px solid var(--hover-color);
+    }
+    &__table-text {
+        border:1px solid var(--hover-color);
+    }
+    &__img{
+        max-width: 600px;;
+       
+    }
+    
+}
+.container {
+}

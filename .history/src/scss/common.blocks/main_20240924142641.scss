@@ -1,0 +1,22 @@
+.main {
+    padding-top: 100px;
+
+    // .main__container
+
+    &__container {}
+
+    // .main__content
+
+    &__content {}
+
+    // .main__img
+
+    &__img {}
+
+    &__title {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 50px;
+        color: #323232;
+    }
+}

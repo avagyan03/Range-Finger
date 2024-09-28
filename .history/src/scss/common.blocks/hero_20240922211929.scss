@@ -1,0 +1,26 @@
+.hero {
+
+  // .hero__container
+
+  &__container {
+  }
+
+  // .hero__content
+
+  &__content {
+  }
+
+  // .hero__title
+
+  &__title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    text-transform: uppercase;
+    max-width: 650px;;;
+  
+  }
+}
+.container {
+}
+.title {
+}

@@ -1,0 +1,20 @@
+.box {
+    padding-top: 80px;
+
+    // .box__container
+
+    &__container {
+   
+    }
+
+    // .box__content
+
+    &__text {
+        max-width: 600px;
+    }
+    &__list{
+   
+        max-width: 600px;;
+    }
+
+}

@@ -1,0 +1,33 @@
+.header {
+  // margin-bottom: 50px;
+  max-width: 1730px;;
+
+  // .header__container
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    gap:560px;
+  }
+
+  // .header__buttons
+
+  &__buttons {
+    padding: 20px 0px;
+  }
+  &__button:hover {
+    color: var(--hover-color);
+  }
+
+
+  // .header__button
+
+  &__button {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 21px;
+    text-transform: uppercase;
+    text-align: center;
+    color:var(--background-color);
+  }
+}

@@ -1,0 +1,18 @@
+.footer {
+	padding-top: 80px;;
+	padding-bottom: 200px;;
+
+	// .footer__container
+
+	&__container {
+		display: flex;
+		gap:10px;
+	}
+
+	// .footer__img
+
+	&__img {
+		max-width: 450px;
+	}
+}
+

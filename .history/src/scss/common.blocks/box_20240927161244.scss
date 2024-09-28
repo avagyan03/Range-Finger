@@ -1,0 +1,40 @@
+.box {
+    padding-top: 80px;
+    padding-bottom: 80px;;
+
+    // .box__container
+
+    &__container {}
+
+    // .box__content
+
+    &__text {
+        font-size: 25px;
+        margin: 0;
+        @include media-adaptiv-font(25,16);
+    }
+
+    &__item-title {
+        font-size: 35px;
+        font-family: var(--font-family);
+        color:var(--background-color);
+        @include media-adaptiv-font(35,20);
+        @media(min-width:480px){
+            margin: 0 ;
+        }
+    }
+
+    &__list {
+        padding-left: 20px;
+      
+    }
+    &__item {
+        font-size: 25px;
+        @include media-adaptiv-font(25,16);
+    }
+    &__text-footer{
+        font-size: 25px;;
+        margin: 0;
+    }
+
+}

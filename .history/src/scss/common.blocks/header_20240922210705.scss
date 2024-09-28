@@ -1,0 +1,29 @@
+.header {
+
+  // .header__container
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    gap:20px;
+  }
+
+  // .header__buttons
+
+  &__buttons {
+    display: flex;
+    padding: 10px 0px;
+  }
+
+
+  // .header__button
+
+  &__button {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 21px;
+    text-transform: uppercase;
+    text-align: center;
+    color:var(--background-color);
+  }
+}

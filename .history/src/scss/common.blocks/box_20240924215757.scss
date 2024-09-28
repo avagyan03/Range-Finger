@@ -1,0 +1,24 @@
+.box {
+    padding-top: 80px;
+
+    // .box__container
+
+    &__container {}
+
+    // .box__content
+
+    &__text {
+        font-size: 25px;
+    }
+
+    &__item-title {
+        font-size: 35px;
+        font-family: var(--font-family);
+    }
+
+    &__list {
+        padding-left: 20px;
+        max-width: 600px;
+    }
+
+}

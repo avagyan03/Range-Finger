@@ -1,0 +1,38 @@
+.nav {
+	display: flex;
+
+	// .nav__list
+
+	&__list {
+		display: flex;
+		justify-content: center;
+		gap: 110px;
+	}
+
+	// .nav__item
+
+	&__item {
+		font-family: var(--font-family);
+		font-weight: 400;
+		font-size: 14px;
+		text-transform: uppercase;
+		text-align: center;
+		color:  var(--background-color);
+		list-style: none;
+		t
+	}
+	&__item-active{
+		font-family: var(--font-family);
+		font-weight: 400;
+		font-size: 14px;
+		text-transform: uppercase;
+		text-align: center;
+		color:  var(--background-color);
+		list-style: none;
+
+	}
+
+	// .nav__link
+
+	&__link {}
+}

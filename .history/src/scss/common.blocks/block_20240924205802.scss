@@ -1,0 +1,23 @@
+.block {
+    padding-top: 145px;
+
+    // .block__container
+
+    &__container {
+    }
+
+    // .block__content
+
+    &__content {
+    }
+    &__table {
+        width: 100%;
+        border: 1px solid var(--hover-color);
+    }
+    &__table-title {
+        border:1px solid var(--hover-color);
+    }
+    
+}
+.container {
+}

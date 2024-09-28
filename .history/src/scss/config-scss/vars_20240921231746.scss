@@ -1,0 +1,13 @@
+:root {
+	// base
+	--font-family: "tthoves", "sans-serif" ;
+	--content-width: 1730px;
+	--container-offset: 15px;
+	--container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+	// colors
+	--light-color: #fff;
+	--dark-color:#868686;
+	--text-color:#7EA484;
+	--background-color:#323232;
+}

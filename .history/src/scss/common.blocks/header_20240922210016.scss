@@ -1,0 +1,22 @@
+.header {
+
+  // .header__container
+
+  &__container {}
+
+  // .header__buttons
+
+  &__buttons {}
+
+
+  // .header__button
+
+  &__button {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 21px;
+    text-transform: uppercase;
+    text-align: center;
+    color:var(--background-color);
+  }
+}
